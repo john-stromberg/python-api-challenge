@@ -12,16 +12,16 @@ But, if pressed, how would you **prove** it?
 
 ## WeatherPy
 
-In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
+Objective was to write a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a the citipy Python library(https://pypi.python.org/pypi/citipy), the OpenWeatherMap API(https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
 
-Your objective is to build a series of scatter plots to showcase the following relationships:
+To do this a series of scatter plots were built to showcase the following relationships:
 
 * Temperature (F) vs. Latitude
 * Humidity (%) vs. Latitude
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
 
-Your final notebook must:
+The final notebook:
 
 * Randomly select **at least** 500 unique (non-repeat) cities based on latitude and longitude.
 * Perform a weather check on each of the cities using a series of successive API calls.
